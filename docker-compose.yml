@@ -4,3 +4,7 @@
     build:
       context: .
       dockerfile: VerifyMe/Dockerfile
+    ports:
+      - "5002:5002"
+    volumes:
+      - ./data:/app/data
